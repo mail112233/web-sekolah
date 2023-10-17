@@ -1,0 +1,258 @@
+body {
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+#topbar {
+    background-color: #15477A;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+}
+
+.top-contact, .sosmed {
+    list-style: none;
+}
+
+#topbar li {
+    display: inline-block;
+}
+
+#topbar li a {
+    color: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#topbar li a i {
+    color: #f2c808;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a {
+    padding: 0 5px;
+    color: #fff;
+}
+
+#topbar .sosmed li a i {
+    color: #fff;
+}
+
+/* css for header */
+
+header {
+    padding: 50px 0;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand img {
+    margin-right: 10px;
+}
+
+.brand .brand-name h1 {
+    font-size: 25px;
+    color: #15477A;
+    text-transform: uppercase;
+}
+
+.brand .brand-name h3 {
+    font-size: 18px;
+    font-family: Raleway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888888;
+}
+
+.pembungkus-searchbox {
+    display: flex;
+    align-items: center;
+}
+
+.searchbox {
+    width: 100%;
+}
+
+.btn.btn-utama {
+    background-color: #15477A;
+    color: #f2c808;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: background-color 0.3s;
+}
+.btn.btn-utama:hover {
+    background-color: #031f3b;
+}
+
+/* untuk nav */
+
+.navbar {
+    padding: 0;
+    border-bottom: 5px solid #f2c808;
+}
+
+.nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+}
+.nav-link:hover {
+    background-color: #f2c808;
+}
+
+.bg-biru {
+    background-color: #15477A!important;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:  #fff;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+
+.active {
+    background-color: #f2c808;
+    color: #181818;
+}
+li.nav-item .active a {
+    color: #15477A;
+}
+.navbar-dark .navbar-nav .nav-link {
+    padding: 15px 20px;
+    display: inline-block; 
+}
+
+/* css slider hero area */
+
+#hero-area {
+    position: relative;
+}
+
+#slider-hero-nav .owl-prev,
+#slider-hero-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    border: none;
+    background-color: #15477A;
+    color: #fff;
+    outline: none;
+    padding: 10px 25px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+#slider-hero-nav .owl-prev {
+    left: 0px;
+    border-radius: 0 50px 50px 0;
+}
+
+#slider-hero-nav .owl-next {
+    right: 0px;
+    border-radius: 50px 0 0 50px;
+}
+#slider-hero-nav .owl-prev:hover,
+#slider-hero-nav .owl-next:hover {
+    cursor: pointer;
+    background-color: #f2c808;
+}
+
+#hero-area .slider-item-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4a4b5091;
+    padding: 20px;
+    text-align: center;
+    font-family: Relaway, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 80%;
+    
+}
+
+#hero-area .slider-item-content h2{
+    font-size: 50px;
+    font-weight: 400;
+
+}
+
+#hero-area .slider-item-content p {
+    font-size: 15px;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* css sambutan */
+#sambutan {
+    margin: 60px 0;
+}
+#sambutan h2 {
+    color: #15477A;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#sambutan h3 {
+    color: #15477A;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sambutan p {
+    font-size: 14px;
+    font-family: Relaway, sans-serif;
+    font-size: 500;
+    line-height: 20px;
+}
+
+/* css untuk sedtion prestasi */
+.section-title {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.section-title h2 {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+
+
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #f2c808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-item-title h3 {
+    font-size: 18px;
+    color: #15477A;
+    line-height: 25px;
+}
