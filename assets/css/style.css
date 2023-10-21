@@ -255,4 +255,24 @@ li.nav-item .active a {
     font-size: 18px;
     color: #15477A;
     line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+
+}
+.section-item-title span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+.section-item-title span i {
+    margin-left: 5px;
+}
+.section-item-title span:first-of-type {
+    margin-right: 15px;
+}
+
+.section-item-body p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
 }
